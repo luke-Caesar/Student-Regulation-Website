@@ -1,0 +1,80 @@
+h1 {
+	text-align: left;
+	color: darkblue;
+}
+h2 {
+	text-align: left;
+	color: darkblue;
+}
+body {
+	background-color: whitesmoke;
+	font-family: Arial, sans-serif;
+}
+p {
+	text-align: center;
+}
+img {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.first {
+	text-align: left;
+	/* margin: 30px;
+	background-color: cornflowerblue;
+	border: 2px solid lightgreen;
+	padding: 5px; 
+    padding-top: 2px; */
+}
+.second {
+	/* palceholder */
+}
+
+.button1 {
+	font: bold 11px Arial;
+	text-decoration: none;
+	background-color: darkblue;
+	color: #ffffff;
+	padding: 4px 12px 4px 12px;
+	border-radius: 6px;
+}
+
+.button1:hover {
+	font: bold 11px Arial;
+	text-decoration: none;
+	background-color: darkmagenta;
+	color: #ffffff;
+	padding: 4px 12px 4px 12px;
+	border-radius: 6px;
+}
+
+.main-header {
+	display: flex;
+	align-items: center;
+	background-image: linear-gradient(rgb(137, 151, 197), rgb(151, 174, 252));
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 48px;
+	justify-content: space-between;
+}
+.header-info {
+	display: flex;
+	text-align: center;
+	color: darkblue;
+	left: 0;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	margin: 14px 14px 0 14px;
+}
+.header-info a {
+	display: flex;
+	padding: 10px;
+	text-decoration: none;
+}
+.header-info a:hover {
+	background-color: transparent;
+}
