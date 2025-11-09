@@ -22,14 +22,6 @@ img {
 
 .first {
 	text-align: left;
-	/* margin: 30px;
-	background-color: cornflowerblue;
-	border: 2px solid lightgreen;
-	padding: 5px; 
-    padding-top: 2px; */
-}
-.second {
-	/* palceholder */
 }
 
 .button1 {
@@ -77,4 +69,64 @@ img {
 }
 .header-info a:hover {
 	background-color: transparent;
+}
+header {
+	padding-bottom: 30px;
+}
+
+table,
+th,
+td {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+table {
+	border-collapse: separate;
+	border: solid black 1px;
+	border-radius: 6px;
+}
+td,
+th {
+	border-left: solid black 1px;
+	border-top: solid black 1px;
+}
+
+td:first-child,
+th:first-child {
+	border-left: none;
+}
+
+th {
+	background-color: lightblue;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	height: 50px;
+	border-top: none;
+}
+
+td:nth-child(1) {
+	font-family: Arial, sans-serif;
+	width: 200px;
+	height: 60px;
+}
+
+td:nth-child(2) {
+	font-family: Arial, sans-serif;
+	width: 300px;
+}
+
+.center-text {
+	text-align: center;
+}
+
+marquee {
+	text-align: left;
+	margin: 30px;
+	background-color: darkblue;
+	border: 2px solid cornflowerblue;
+	padding: 5px;
+	padding-top: 2px;
+	color: white;
 }

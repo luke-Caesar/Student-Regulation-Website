@@ -1,0 +1,3 @@
+table css : https://stackoverflow.com/questions/4932181/rounded-table-corners-css-only
+
+Classes : https://www.youtube.com/watch?v=tWIkDOJo0Ts

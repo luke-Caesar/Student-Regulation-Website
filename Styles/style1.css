@@ -30,9 +30,6 @@ img {
 	padding-top: 2px;
 	color: white;
 }
-.second {
-	/* palceholder */
-}
 
 .video {
 	align-content: center;
@@ -67,6 +64,10 @@ img {
 video {
 	width: 640px;
 	border-radius: 6px;
+}
+
+header {
+	padding-bottom: 30px;
 }
 
 .main-header {
